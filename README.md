@@ -1,8 +1,5 @@
 # API Proxy Hub
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![](https://img.shields.io/badge/Powered%20by-xAI-orange.svg)](https://x.ai)
-
 API Proxy Hub 是一个通用的 API 代理服务，支持 HTTP 和 HTTPS 请求，旨在简化开发者对第三方 API 的访问。通过简单的路由配置，您可以将请求代理到任何目标地址。
 
 ## 功能特点
