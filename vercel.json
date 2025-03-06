@@ -5,8 +5,12 @@
             "dest": "/index.html"
         },
         {
-            "src": "/(https?://[^/]+/?.*)",
-            "dest": "$1"
+            "src": "/https-proxy/(.*)",
+            "dest": "https://$1"
+        },
+        {
+            "src": "/http-proxy/(.*)",
+            "dest": "http://$1"
         }
     ],
     "regions": [
