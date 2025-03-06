@@ -5,7 +5,7 @@
             "dest": "/index.html"
         },
         {
-            "src": "/(https?://.*)",
+            "src": "/(https?://[^/]+/?.*)",
             "dest": "$1"
         }
     ],
