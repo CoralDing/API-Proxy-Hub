@@ -5,32 +5,32 @@
             "dest": "/index.html"
         },
         {
-            "src": "/gemini/v1/(.*)",
-            "dest": "https://generativelanguage.googleapis.com/v1/$1"
+            "src": "/gemini/(.*)",
+            "dest": "https://generativelanguage.googleapis.com/$1"
         },
         {
-            "src": "/gemini/v1beta/(.*)",
-            "dest": "https://generativelanguage.googleapis.com/v1beta/$1"
+            "src": "/gemini/(.*)",
+            "dest": "https://generativelanguage.googleapis.com/$1"
         },
         {
-            "src": "/openai/v1/(.*)",
-            "dest": "https://api.openai.com/v1/$1"
+            "src": "/openai/(.*)",
+            "dest": "https://api.openai.com/$1"
         },
         {
-            "src": "/groq/openai/v1/(.*)",
-            "dest": "https://api.groq.com/openai/v1/$1"
+            "src": "/groq/(.*)",
+            "dest": "https://api.groq.com/$1"
         },
         {
-            "src": "/claude/v1/(.*)",
-            "dest": "https://api.anthropic.com/v1/$1"
+            "src": "/claude/(.*)",
+            "dest": "https://api.anthropic.com/$1"
         },
         {
-            "src": "/cohere/v1/(.*)",
-            "dest": "https://api.cohere.ai/v1/$1"
+            "src": "/cohere/(.*)",
+            "dest": "https://api.cohere.ai/$1"
         },
         {
-            "src": "/xai/v1/(.*)",
-            "dest": "https://api.x.ai/v1/$1"
+            "src": "/xai/(.*)",
+            "dest": "https://api.x.ai/$1"
         }
     ],
     "regions": [
